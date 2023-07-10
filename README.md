@@ -3,8 +3,15 @@ https://yeokim5.github.io/youtube-clone/
 
 This repository contains a YouTube clone created using HTML and CSS. It focuses on replicating the YouTube homepage.
 이 레스파토리는 HTML과 CSS를 사용하여 구현한 유튜브 클론 코딩입니다. 주로 유튜브의 홈페이지를 모방하는 것에 초점을 맞췄습니다.
-![Uploading image.png…]()
 
+**Real Youtube View**
+![real-y1](https://github.com/yeokim5/youtube-clone/assets/66398851/24788864-ac76-474b-907a-45a8c7da5192)
+![real-y2](https://github.com/yeokim5/youtube-clone/assets/66398851/0546907c-700f-43d7-8f7b-928fe96c41bc)
+
+
+**Youtube Clone View**
+![y1](https://github.com/yeokim5/youtube-clone/assets/66398851/f1ffda82-1e3f-428f-a738-a6b7b8ca8533)
+![y2](https://github.com/yeokim5/youtube-clone/assets/66398851/df81c809-a2ce-4a05-aa09-a0c2d889c4d4)
 
 
 ## Stack
