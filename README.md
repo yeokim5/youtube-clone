@@ -1,7 +1,11 @@
-# YouTube Clone https://yeokim5.github.io/youtube-clone/
+# YouTube Clone 
+https://yeokim5.github.io/youtube-clone/
 
 This repository contains a YouTube clone created using HTML and CSS. It focuses on replicating the YouTube homepage.
 이 레스파토리는 HTML과 CSS를 사용하여 구현한 유튜브 클론 코딩입니다. 주로 유튜브의 홈페이지를 모방하는 것에 초점을 맞췄습니다.
+![Uploading image.png…]()
+
+
 
 ## Stack
 
