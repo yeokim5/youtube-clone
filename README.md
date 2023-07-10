@@ -6,12 +6,10 @@ This repository contains a YouTube clone created using HTML and CSS. It focuses 
 
 **Real Youtube View**
 ![real-y1](https://github.com/yeokim5/youtube-clone/assets/66398851/24788864-ac76-474b-907a-45a8c7da5192)
-![real-y2](https://github.com/yeokim5/youtube-clone/assets/66398851/0546907c-700f-43d7-8f7b-928fe96c41bc)
 
 
 **Youtube Clone View**
 ![y1](https://github.com/yeokim5/youtube-clone/assets/66398851/f1ffda82-1e3f-428f-a738-a6b7b8ca8533)
-![y2](https://github.com/yeokim5/youtube-clone/assets/66398851/df81c809-a2ce-4a05-aa09-a0c2d889c4d4)
 
 
 ## Stack
