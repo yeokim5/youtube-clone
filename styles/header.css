@@ -1,7 +1,6 @@
 .outer-header {
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -13,9 +12,8 @@
     top: 0;
     left: 0;
     right: 0;
-
+    z-index: 100;
     background-color: white;
-
 }
 
 .left-section {
@@ -116,8 +114,10 @@
 .head-nav-bar,
 .head-nav-bar-inside {
     height: 50px;
-    background-color: gold;
+    background-color: rgb(255, 255, 255);
     position: fixed;
+    
+    z-index: 100;
     top: 50px;
     left: 200px;
     right: 300px;
@@ -133,6 +133,8 @@
 }
 
 
+
+
 .nav-box,
 .nav-box-2 {
     font-family: Roboto, Arial;
@@ -144,6 +146,22 @@
     transition: 0.15s;
 
 }
+@media (max-width: 1500px) {
+    .nav-box, .nav-box-2{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-box, .nav-box-2{
+        font-size: 4px;
+        column-gap: 100px;
+    }
+    .head-nav-bar {
+        display: none;
+    }
+}
+
 
 .nav-box-2 {
     background-color: black;
@@ -153,3 +171,6 @@
 .nav-box:hover {
     background-color: rgb(201, 201, 201);
 }
+
+
+
