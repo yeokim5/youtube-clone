@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YOUTUBE 클론 코딩</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div class="outer-header">
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo-kr" src="icons/youtube-logo-kr.png">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="검색">
+                <button class="search-icon">
+                    <img style="height: 25px;" src="icons/search.svg">
+                </button>
+                <button class="voice-search-icon">
+                    <img src="icons/voice-search.svg">
+                </button>
+            </div>
+            <div class="right-section">
+
+                <div class="three-dot-icon">
+                    <img src="icons/three-dot.svg">
+                </div>
+                <div class="login-icon">
+                    <img src="icons/login.svg">
+
+                    <div>
+                        <p style="color: rgb(6, 95, 212);">로그인</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="head-nav-bar">
+            <div class="head-nav-bar-inside">
+                <div class="nav-box-2">전체</div>
+                <div class="nav-box">음악</div>
+                <div class="nav-box">실시간</div>
+                <div class="nav-box">게임</div>
+                <div class="nav-box">뉴스</div>
+                <div class="nav-box">만화영화</div>
+                <div class="nav-box">축구</div>
+                <div class="nav-box">액션 어드벤처 게임</div>
+                <div class="nav-box">요리</div>
+                <div class="nav-box">최근에 업로드된 동영상</div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div style="background-color: rgb(225, 225, 225);">
+            <img src="icons/svg-export/home.svg">
+            <p>홈</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/short.svg">
+            <p>Shorts</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/sub.svg">
+            <p>구독</p>
+        </div>
+        <p class="gray-line"></p>
+        <div>
+            <img src="icons/svg-export/list.svg">
+            <p>보관함</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/history.svg">
+            <p>시청 기록</p>
+        </div>
+        <p class="gray-line"></p>
+        <p style="padding:15px; font-size: 14px;">로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.</p>
+        <span class="login-icon" style="margin: 10px; width: 40%; margin-bottom: 20px">
+            <img src="icons/login.svg">
+
+            <span>
+                <p style="color: rgb(6, 95, 212);">로그인</p>
+            </span>
+        </span>
+        <p class="gray-line"></p>
+        <p style="margin:15px; font-size: 18px;">탐색</p>
+        <div>
+            <img src="icons/svg-export/hot.svg">
+            <p>인기 급상승</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/shopping.svg">
+            <p>쇼핑</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/music.svg">
+            <p>음악</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/movie.svg">
+            <p>영화</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/live.svg">
+            <p>실시간</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/game.svg">
+            <p>게임</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/sports.svg">
+            <p>스포츠</p>
+        </div>
+        <div>
+            <img src="icons/svg-export/edu.svg">
+            <p>학습</p>
+        </div>
+        <p class="gray-line"></p>
+        <div>
+            <img src="icons/svg-export/explore.svg">
+            <p>채널탐색</p>
+        </div>
+        <p class="gray-line"></p>
+
+    </div>
+
+
+    </div>
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/2_kRPIN6YW8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByeBnhIVUOBoMNNY9l9SqAP_te5Q
+                ">
+            <div class="time">21:42
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/PEyPyJU9YEjL--SCMcV3QQUOFgb4S-I7ZWttumlVhCA_HwfBWYqx5EdvYdyYa0dWUH-gVCmCIw=s68-c-k-c0x00ffffff-no-rj
+                        ">
+                </div>
+                <div class="info">
+                    <p class="video-title">역대급 시청률로 난리난 '준호', '윤아'의 《킹더랜드》 최신 7-8화 한방에 몰아보기
+                    </p>
+                    <p class="channel-name">서울극장</p>
+                    <p class="video-view">조회수 8.7만회 &#183; 4시간 전
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/tEIuPMKr7d8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_7CUV_d53Pu2tRMRPuss7AcrosQ">
+            <div class="time">2:15
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/w7ColCSgsKVMJuh6izq4oRlYn-ZkJ8roQuHQy1Nvc75ONCH7uzLmoUE5YMJtZqFCHb4ZFPxAOg=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">"경험 못한 폭우" 일본 비상…4명 사망, 수백 명 고립 / SBS 8뉴스</p>
+                    <p class="channel-name">SBS 뉴스</p>
+                    <p class="video-view">조회수 19만회 &#183; 2시간 전</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/m8fyhfWoo2w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvNd_2UT-L4ccsjEQZ-YqyrvCROg">
+            <div class="time">3:19:38
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/GNtvBNIoLyvFOdG5T3SxM2wyTSQGjXSLv7am12hmbg5Pr-JsJ6sFLik-do9Q4EDLGjzKB3a_1Ic=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">하루 종일 듣기 좋은 노래 🎶일할때 듣기좋은 발라드 추천 광고없는 노래모음🎵</p>
+                    <p class="channel-name">뮤직 위크</p>
+                    <p class="video-view">조회수 6만회 &#183; 6일 전</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/1ho9jntKVpk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjHxFrESxtxeN3qcHupL6NXjUL_A">
+            <div class="time">7:39
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/ytc/AOPolaT5LWfEumJ4sdIxsGXGamIv4hyU1oIa2KkaLES3Ow=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">'1인승'부터 하늘로 '붕' 임박한 출시에 들떴다 [뉴스.zip/MBC뉴스]</p>
+                    <p class="channel-name">MBCNEWS</p>
+                    <p class="video-view">조회수 80만회 &#183; 1일 전</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/glrpEVG7yIY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVr-b4Y3ViTdPIMNXEUYgMB7MR_A">
+            <div class="time">11:52
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/ytc/AOPolaTFkA0BCjzaVxJgHEWqKg3WpdfKnZMnM9sVSSU2dw=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">최근에 챌린저 1000점 달성한 저라뎃 근황 ㄷㄷ</p>
+                    <p class="channel-name">백크 Baekk</p>
+                    <p class="video-view">조회수 6.3만회 &#183; 1시간 전</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/wd5i_yUiFcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSdMjMVo1tpaiHup3gKGL2fVsrFw">
+            <div class="time">2:12
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/ytc/AOPolaTnk0oFUPRYgZxfjsYbbs6K-KWPZBbtiWLozuylbg=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">"헤비급 장마 온다"…잠 못 드는 밤 | 뉴스A</p>
+                    <p class="channel-name">채널A 뉴스</p>
+                    <p class="video-view">조회수 22만회 &#183; 3시간 전</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/UuCiN7QSDbQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCCQB473qtg_TkuvlgAmq9168BJyQ">
+            <div class="time">18:52
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/_s3C7XpwVKVr_5gDrmYJh9AOkU3wFlY9FWyZBVGVP_v7B09P5O4bbEZaWGpiuyT78Dk-aElE=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">역대급 반응ㅋㅋ🤣 삼겹살 김치찌개 찐맛집 찾았습니다👍전라도 광주 24시 로컬맛집 먹방</p>
+                    <p class="channel-name">tzuyang쯔양</p>
+                    <p class="video-view">조회수 19만회 &#183; 2시간 전</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail"
+                src="https://i.ytimg.com/vi/ETyzZSrHl-s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARaWDM52Jcmbyoo42hlMcbvpZYRQ">
+            <div class="time">19:46
+            </div>
+            <div class="video-info">
+                <div>
+                    <img class="profile-pic"
+                        src="https://yt3.ggpht.com/TjSlbvsyFZvCYMrV_ymIEX-_7XiU9P4g3DA-1cKUr0W28h33WgDD0ra8ggyaGxJs4ixwJcUkQA=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="info">
+                    <p class="video-title">[#유퀴즈온더블럭] 악뮤의 장르는 AKMU 이찬혁은 킹 받는 장꾸력</p>
+                    <p class="channel-name">디글 클래식 :Diggle Classic</p>
+                    <p class="video-view">조회수 50만회 &#183; 1일 전</p>
+                </div>
+            </div>
+        </div>
+        
+             
+    </div>
+    <p style="width: 98%; border:2px solid rgba(128,128,128, 0.2); margin: 20px 0 20px 0;"></p>
+    <img style="height: 35px; padding-left: 10px;" src="icons\shorts-video.png">
+
+    <div class="shorts">
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/OEVvF77qhOo/oar2.jpg?sqp=-oaymwEaCIoDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDPuTzamfPnTMrUBhLVTPxX-jq43A">
+            <div class="info">
+                <p class="video-title">진정한 공감과 변화를 위해 필요한건? | 스탠포드 교수</p>
+                <p class="video-view">조회수 2.4천회</p>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/4QeGMfjuhDw/hq720_2.jpg?sqp=-oaymwEdCI4CEOADSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCrc1cReZar1UwMOQpz9ZoCYbOIsg">
+            <div class="info">
+                <p class="video-title">vegan berry oat bars *how to use up frozen fruit</p>
+                <p class="video-view">조회수 139만회</p>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/PCQcSqvf7AM/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA9X3dz8rXN2bokN82W4hgLO7D26w">
+            <div class="info">
+                <p class="video-title">프랑스 지단 유니폼을 갖고 있는 유일한 사람ㅋㅋㅋ#shorts</p>
+                <p class="video-view">조회수 33만회</p>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/jK91yvryipA/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCQ-f2zdcrdN8z8Nh34tVkwOyxzvg">
+            <div class="info">
+                <p class="video-title">[엔믹스] 울기 직전 지우를 순간포착한 해원</p>
+                <p class="video-view">조회수 125만회</p>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/WMax2VzOm5g/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDvuMZQcnDwLwwkiaWvkFwo79J5SQ">
+            <div class="info">
+                <p class="video-title">Newjeans ' Super Shy ' HANNI part</p>
+                <p class="video-view">조회수 45만회</p>
+            </div>
+        </div>
+        <div class="shorts-container">
+            <img class="shorts-display" src="https://i.ytimg.com/vi/hDtVbiQPGcQ/hq720.jpg?sqp=-oaymwEdCJwEENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLD3vLfuGN_f8CxndHkRt5WEPkEwxQ">
+            <div class="info">
+                <p class="video-title">정찬성의 지리는 카운터👊 #shorts</p>
+                <p class="video-view">조회수 61만회</p>
+            </div>
+        </div>  
+        
+        
+        
+    </div>
+
+    <p style="width: 98%; border:2px solid rgba(128,128,128, 0.2); margin: 20px 0 20px 0;"></p>
+
+
+    
+
+</body>
+
+</html>
+
+
+
