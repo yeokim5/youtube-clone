@@ -116,7 +116,7 @@
     height: 50px;
     background-color: rgb(255, 255, 255);
     position: fixed;
-    
+
     z-index: 100;
     top: 50px;
     left: 200px;
@@ -146,17 +146,23 @@
     transition: 0.15s;
 
 }
+
 @media (max-width: 1500px) {
-    .nav-box, .nav-box-2{
+
+    .nav-box,
+    .nav-box-2 {
         font-size: 12px;
     }
 }
 
 @media (max-width: 1200px) {
-    .nav-box, .nav-box-2{
+
+    .nav-box,
+    .nav-box-2 {
         font-size: 4px;
         column-gap: 100px;
     }
+
     .head-nav-bar {
         display: none;
     }
@@ -171,6 +177,3 @@
 .nav-box:hover {
     background-color: rgb(201, 201, 201);
 }
-
-
-

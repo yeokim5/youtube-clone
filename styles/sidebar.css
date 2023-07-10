@@ -9,8 +9,8 @@
 }
 
 
-    
-    
+
+
 
 
 .sidebar div {
@@ -30,8 +30,6 @@
 }
 
 .gray-line {
-    border: 0.4px solid rgba(128,128,128, 0.1); margin: 10px 0 10px 0;
+    border: 0.4px solid rgba(128, 128, 128, 0.1);
+    margin: 10px 0 10px 0;
 }
-
-
-
